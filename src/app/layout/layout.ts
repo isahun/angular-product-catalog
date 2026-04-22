@@ -6,4 +6,4 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
   imports: [RouterLink, RouterLinkActive, RouterOutlet],
   templateUrl: './layout.html'
 })
-export class LayoutComponent {}
+export class Layout {}
