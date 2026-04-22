@@ -2,6 +2,6 @@
   <h1>Catàleg de llibres</h1>
 
   @for (book of books; track book.id) {
-    <app-book-card [book]="book" (ifSelected)="goToDetail($event)" />
+    <app-book-card [book]="book" />
   }
 </section>
