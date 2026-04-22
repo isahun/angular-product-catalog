@@ -10,8 +10,8 @@ export const routes: Routes = [
     path: '',
     component: Layout,
     children: [
-      { path: '',          component: Home },
-      { path: 'books',     component: BookList },
+      { path: '', component: Home },
+      { path: 'books', component: BookList },
       { path: 'books/:id', component: BookDetail },
     ]
   },
