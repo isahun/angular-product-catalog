@@ -10,9 +10,4 @@ import { CurrencyPipe } from '@angular/common';
 })
 export class BookCard {
   book = input.required<Book>();
-  ifSelected = output<string>();
-
-  notificar() {
-    this.ifSelected.emit(this.book().id);
-  }
 }
