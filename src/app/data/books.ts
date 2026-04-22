@@ -7,7 +7,7 @@ export const BOOKS: Book[] = [
     author: 'J.R.R. Tolkien',
     price: 25,
     image:
-      'https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA',
+      'https://picsum.photos/id/28/200/300',
     category: 'Fantasy',
   },
   {
@@ -16,7 +16,7 @@ export const BOOKS: Book[] = [
     author: 'J.R.R. Tolkien',
     price: 25,
     image:
-      'https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA',
+      'https://picsum.photos/id/28/200/300',
     category: 'Fantasy',
   },
   {
@@ -25,7 +25,7 @@ export const BOOKS: Book[] = [
     author: 'J.R.R. Tolkien',
     price: 25,
     image:
-      'https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA',
+      'https://picsum.photos/id/28/200/300',
     category: 'Fantasy',
   },
   {
@@ -34,7 +34,7 @@ export const BOOKS: Book[] = [
     author: 'J.R.R. Tolkien',
     price: 25,
     image:
-      'https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA',
+      'https://picsum.photos/id/28/200/300',
     category: 'Fantasy',
   },
   {
@@ -43,7 +43,7 @@ export const BOOKS: Book[] = [
     author: 'J.R.R. Tolkien',
     price: 25,
     image:
-      'https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA',
+      'https://picsum.photos/id/28/200/300',
     category: 'Fantasy',
   },
   {
@@ -52,7 +52,7 @@ export const BOOKS: Book[] = [
     author: 'J.R.R. Tolkien',
     price: 25,
     image:
-      'https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA',
+      'https://picsum.photos/id/28/200/300',
     category: 'Fantasy',
   },
   {
@@ -61,7 +61,7 @@ export const BOOKS: Book[] = [
     author: 'J.R.R. Tolkien',
     price: 25,
     image:
-      'https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA',
+      'https://picsum.photos/id/28/200/300',
     category: 'Fantasy',
   },
   {
@@ -70,7 +70,7 @@ export const BOOKS: Book[] = [
     author: 'J.R.R. Tolkien',
     price: 25,
     image:
-      'https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA',
+      'https://picsum.photos/id/28/200/300',
     category: 'Fantasy',
   },
   {
@@ -79,7 +79,7 @@ export const BOOKS: Book[] = [
     author: 'J.R.R. Tolkien',
     price: 25,
     image:
-      'https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA',
+      'https://picsum.photos/id/28/200/300',
     category: 'Fantasy',
   },
   {
@@ -88,7 +88,7 @@ export const BOOKS: Book[] = [
     author: 'J.R.R. Tolkien',
     price: 25,
     image:
-      'https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA',
+      'https://picsum.photos/id/28/200/300',
     category: 'Fantasy',
   },
 ];

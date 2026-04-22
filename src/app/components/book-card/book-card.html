@@ -1,7 +1,8 @@
 <div class="book-card" [routerLink]="['/books', book().id]">
   <h2>{{ book().title }}</h2>
   <p>{{ book().author }}</p>
-  <p> {{ book().price }}</p>
-  <p> {{ book().image }}</p>
+  <p> {{ book().price | currency }}</p>
 
+<img src="{{ book().image }}" alt="{{ book().title }}" class="w-full md:w-1/3 h-auto object-cover rounded-lg">
+<br>
   <button class="btn-primary" (click)="notificar()"> Ves al detall </button> </div>
