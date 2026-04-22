@@ -1,11 +1,11 @@
-<section>
+<section class="book-detail-page">
   @if (book(); as b) {
   <app-book-detail-card [book]="b" />
-  <img src="{{ b.image }}" alt="{{ b.title }}" class="w-full md:w-1/3 h-auto object-cover rounded-lg">
+  <img src="{{ b.image }}" alt="{{ b.title }}" class="w-half md:w-1/3 h-auto object-cover rounded-lg">
     <br>
-  <button (click)="goBack()">← Tornar al catàleg</button>
+  <button class="btn-back" (click)="goBack()">← Tornar al catàleg</button>
   } @else {
   <p>Llibre no trobat.</p>
-  <button (click)="goBack()">← Tornar al catàleg</button>
+  <button class="btn-back" (click)="goBack()">← Tornar al catàleg</button>
   }
 </section>

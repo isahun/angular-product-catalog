@@ -1,0 +1,36 @@
+@reference "tailwindcss";
+
+:host {
+  @apply block;
+}
+
+section {
+  @apply h-full flex flex-col m-5;
+}
+
+.book-card {
+  @apply flex-1 bg-white rounded-xl border border-slate-200 overflow-hidden
+    cursor-pointer select-none
+    transition-all duration-200
+    hover:shadow-lg hover:-translate-y-0.5 hover:border-indigo-200;
+}
+
+.book-card-img {
+  @apply w-full h-48 object-cover;
+}
+
+.book-card-body {
+  @apply p-5 flex flex-col gap-1;
+}
+
+.book-card h2 {
+  @apply text-base font-semibold text-slate-900 leading-snug;
+}
+
+.author {
+  @apply text-sm text-slate-500;
+}
+
+.price {
+  @apply text-base font-bold text-indigo-600 mt-1;
+}
