@@ -10,6 +10,4 @@ import { BookCard } from '../../components/book-card/book-card';
 export class BookList {
   private service = inject(BookService);
   books = this.service.getBooks();
-
-
 }
