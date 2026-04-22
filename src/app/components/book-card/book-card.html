@@ -1,1 +1,7 @@
-<p>book-card works!</p>
+<div class="book-card" [routerLink]="['/books', book().id]">
+  <h2>{{ book().title }}</h2>
+  <p>{{ book().author }}</p>
+  <p> {{ book().price }}</p>
+  <p> {{ book().image }}</p>
+
+  <button class="btn-primary" (click)="notificar()"> Ves al detall </button> </div>
