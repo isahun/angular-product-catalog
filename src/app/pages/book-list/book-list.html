@@ -1,1 +1,7 @@
-<p>book-list works!</p>
+<section class="book-list">
+  <h1>Catàleg de llibres</h1>
+
+  @for (book of books; track book.id) {
+    <app-book-card [book]="book" />
+  }
+</section>
