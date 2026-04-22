@@ -1,1 +1,14 @@
 <p>layout works!</p>
+
+<header>
+  <nav>
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"> Inici
+    </a>
+
+    <a routerLink="/books" routerLinkActive="active">Llibres</a>
+  </nav>
+</header>
+
+<main>
+  <router-outlet />
+</main>
