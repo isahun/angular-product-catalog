@@ -1,1 +1,6 @@
-<p>book-detail-card works!</p>
+<article class="book-detail-card">
+  <h1>{{ book().title }}</h1>
+  <p><strong>Autor:</strong> {{ book().author }}</p>
+  <p><strong>Preu:</strong> {{ book().price | currency  }}</p>
+  <p><strong>Categoria:</strong> {{ book().category }}</p>
+</article>
