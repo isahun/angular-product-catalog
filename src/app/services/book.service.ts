@@ -10,7 +10,7 @@ export class BookService {
     return BOOKS;
   }
 
-  getBooksById(id: string): Book | undefined {
+  getBookById(id: string): Book | undefined {
     return BOOKS.find(b => b.id === id);
   }
 }
